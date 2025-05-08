@@ -380,7 +380,7 @@
 
             // Preload character image for better performance
             var charImg = new Image();
-            charImg.src = 'char.png';
+            charImg.src = 'toross.jpg';
             
             // Draw t-rex
             this.tRex = new Trex(this.canvas, this.spriteDef.TREX);
@@ -1558,7 +1558,7 @@
         
         // Character image
         this.charImg = new Image();
-        this.charImg.src = 'char.png';
+        this.charImg.src = 'toross.jpg';
         this.charImg.onload = function() {
             // Ensure image is loaded with high quality
             this.charImgLoaded = true;
